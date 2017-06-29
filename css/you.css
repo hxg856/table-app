@@ -1,0 +1,41 @@
+body {
+    margin: 10px;
+    width: 1000px
+}
+
+th,
+tr,
+td {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1 !important;
+    border: 0;
+}
+
+th {
+    font-size: 1.4em
+}
+
+td {
+    font-size: 1.5em;
+    height: 100px !important;
+    width: 150px !important;
+    overflow: auto;
+}
+
+thead {
+    background-color: dodgerblue;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+.small {
+    font-size: 0.5em;
+}
+
+p + p {
+    font-size: 0.1em;
+}
